@@ -1,4 +1,5 @@
 import { Counter } from "./components/Counter";
+import { CounterReducer } from "./components/CounterReducer";
 import { TimeFather } from "./components/TimerFather";
 import { User } from "./components/User";
 
@@ -11,6 +12,8 @@ const App = (): JSX.Element => {
       <User />
       <hr />
       <TimeFather />
+      <hr />
+      <CounterReducer />
     </div>
   );
 };
